@@ -1,0 +1,36 @@
+Generative AI Documentation
+
+Tool Used:
+ChatGPT
+
+Purpose:
+Used ChatGPT to help understand the assignment requirements and the Java concepts needed to complete the project.
+
+Queries Used:
+
+“Explain composition vs. inheritance in Java.”
+“How do interfaces work in Java?”
+“How can I use an ArrayList to store messages?”
+“What should be included in JavaDocs?”
+“How can I structure a notification system using composition?”
+AI Output and Refinements:
+
+Used the explanations to understand how a NotificationMedium interface could be used by multiple notification services.
+Modified the examples to match the assignment requirements.
+Added an ArrayList to store a log of messages sent during program execution.
+Added JavaDocs to all classes and methods.
+Organized the code into separate files for the interface, services, container class, and main class.
+Tested the program from the command line and corrected any compilation issues.
+Prompt Used:
+
+How AI Assisted:
+
+The AI was used as a reference tool to help me understand how to implement a new notification service using the existing design pattern. It provided suggestions and examples, but I reviewed the code, integrated it into my project, and tested it myself.
+
+Verification and Refinement:
+
+After receiving guidance, I manually created and tested the WhatsAppService class. I verified that it implemented the NotificationMedium interface correctly and worked with the setMedium() method. I also confirmed that messages continued to be stored in the AlertSystem log without modifying the existing system.
+
+Documentation and Professional Standards:
+
+I reviewed the generated suggestions and adjusted the code and comments to match the style of the existing project. The final implementation was tested through the command line to ensure compatibility with the original application.
